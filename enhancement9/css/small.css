@@ -1,0 +1,257 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* *********************************************** */
+/* Homepage styling */
+main {
+  background-color: white;
+  font-family: monospace;
+}
+
+nav {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 10px;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 5px;
+}
+.banner p {
+  grid-column: 4/4;
+  margin: auto;
+  font-size: 1rem;
+}
+.banner p a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+
+nav ul {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 13px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: auto;
+  padding: 5px 5px;
+}
+
+.features {
+  line-height: 5px;
+  color: #3a3a3a;
+  padding: 5px 10px;
+}
+.delorean {
+  width: 90%;
+  margin: auto;
+  grid-row: 1/2;
+}
+.upgrades {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.upgrades div {
+  background-color: #a6cbeb;
+  width: 90%;
+  margin: 15px;
+  height: 80px;
+  border: 1px solid #3a3a3a;
+}
+.upgrades div img {
+  display: grid;
+  margin: auto;
+}
+.upgrades div p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.flux {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.decals {
+  grid-row: 1/2;
+  grid-column: 2/2;
+}
+.stickers {
+  grid-row: 2/2;
+  grid-column: 1/2;
+}
+.hubs {
+  grid-row: 2/2;
+  grid-column: 2/2;
+}
+
+.own-today {
+  grid-row: 2/2;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.reviews li {
+  font-size: 1.2rem;
+}
+
+hr {
+  height: 3px;
+  background-color: #3a3a3a;
+}
+footer {
+  text-align: center;
+}
+
+/* *************************************************************************** */
+/* Registration.php styling */
+#c-register {
+  color: black;
+  float: left;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  row-gap: 10px;
+}
+
+/* vehicle-management styling */
+#container {
+  display: block;
+  margin: 50px;
+}
+#container form {
+  font-size: 20px;
+  display: block;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+#container form span {
+  font-size: 10px;
+  line-height: 0.5em;
+}
+#container h1 {
+  padding: 10px 50px 10px 75px;
+}
+
+/* ***************************************************** */
+/* Admin.php styling */
+.login-message {
+  display: block;
+  padding: 20px;
+}
+#container2 {
+  display: block;
+  margin: 50px;
+}
+#container2 form {
+  font-size: 20px;
+  display: block;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+#container2 form span {
+  font-size: 0.75rem;
+  line-height: 0.5em;
+}
+#container2 h1 {
+  padding: 10px 50px 10px 75px;
+}
+
+/* ****************************************** */
+/* Vehicles Display Styling */
+#inv-display {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+#inv-display li {
+  margin-bottom: 0.5em;
+  border: 2px #ccc solid;
+  list-style-type: none;
+  flex: 1 1 auto;
+}
+
+#inv-display li img {
+  max-width: 100%;
+}
+
+.group {
+  margin: 0;
+  padding: 10px;
+  color: black;
+}
+.car-img {
+  max-width: 80%;
+  
+}
+
+.car-tn:hover {
+  transform:scale(2);
+}
+
+#car-details {
+  font-size: 1rem;
+  background-color: lightgray;
+  padding: 10px;
+}
+.car-tn {
+  max-width: 30%;
+  margin: auto;
+}
+.outputSmallImage1{
+  display: none;
+}
+.price {
+  font-size: 1.5rem;
+}
+#image-display p {
+  font-size: 1rem;
+}
+
+#image-display a {
+  color: blue;
+  font-size: 1rem;
+}
+.imageform {
+  background-color: lightgray;
+  width: 70%;
+  border-radius: 5px;
+  padding: 10px;
+}

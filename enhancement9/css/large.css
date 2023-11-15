@@ -1,0 +1,96 @@
+
+@media only screen and (min-width: 768px) {
+  html {
+    background-image: url("/phpmotors/images/site/small_check.jpg");
+  }
+
+  main{ margin: auto;
+    max-width: 1000px;
+    border: 3px solid #4c96d7;
+    border-radius: 5px;
+   }
+    ul {
+    font-size: 1.5rem;
+  }
+  .own-today {
+    width: 200px;
+    margin:0;
+  }
+  .delorean {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  .class-view {
+    display: block;
+    font-size: 2rem;
+  }
+
+  /* For vehicle display in classification view */
+	#inv-display {
+		flex-flow: row wrap;
+		justify-content: flex-start;
+	}
+
+	#inv-display h2{
+		font-size: 1rem;
+	}
+
+	#inv-display li {
+		max-width: 200px;
+		flex: 1 0 auto;
+		text-align: center;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+      
+	#inv-display div {
+		width: 100%;
+	}
+
+  .group {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    
+  }
+ .car-img {
+  grid-column: 1/2;
+  grid-row: 1; 
+  margin-top: -250px;
+  max-width: 70%;
+  float:right;
+  padding: 10px;
+ 
+ }
+ #car-details {
+  grid-column: 2/2;
+  grid-row: 1;
+  padding: 10px;
+ }
+ .car-tn {
+  width: 20%;
+  padding: 10px;
+  grid-column:1/2;
+  margin: 0;
+ }
+ .car-tn:hover {
+  transform:scale(2);
+}
+.outputSmallImage {
+  display: none;
+}
+.outputSmallImage1 {
+  display: grid;
+}
+.tn {
+  display: none;
+}
+
+  
+
+}
